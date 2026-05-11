@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #222;
+            margin-bottom: 40px;
+        }
+
+        .site {
+            background-color: white;
+            width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        .site img {
+            width: 300px;
+            height: 180px;
+            border-radius: 8px;
+        }
+
+        .site a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .site a:hover {
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos: Eitor Ramires Brito</h1>
+
+    <!-- GOOGLE -->
+    <div class="site">
+
+        <!-- Nome do site -->
+        <h2>Google</h2>
+
+        <!-- Imagem com link -->
+        <a href="https://www.google.com.br" target="_blank">
+            <img src="google.jpg" alt="Imagem do Google">
+        </a>
+
+        <!-- Link do site -->
+        <a href="https://www.google.com.br" target="_blank">
+            www.google.com.br
+        </a>
+    </div>
+
+    <!-- EADTEC -->
+    <div class="site">
+
+        <!-- Nome do site -->
+        <h2>EADTEC CPS</h2>
+
+        <!-- Imagem com link -->
+        <a href="https://eadtec.cps.sp.gov.br" target="_blank">
+            <img src="eadtec.jpg" alt="Imagem do EADTEC">
+        </a>
+
+        <!-- Link do site -->
+        <a href="https://eadtec.cps.sp.gov.br" target="_blank">
+            www.eadtec.cps.sp.gov.br
+        </a>
+    </div>
+
+    <!-- YOUTUBE -->
+    <div class="site">
+
+        <!-- Nome do site -->
+        <h2>YouTube</h2>
+
+        <!-- Imagem com link -->
+        <a href="https://www.youtube.com.br" target="_blank">
+            <img src="youtube.jpg" alt="Imagem do YouTube">
+        </a>
+
+        <!-- Link do site -->
+        <a href="https://www.youtube.com.br" target="_blank">
+            www.youtube.com.br
+        </a>
+    </div>
+
+    <!-- KHAN ACADEMY -->
+    <div class="site">
+
+        <!-- Nome do site -->
+        <h2>Khan Academy</h2>
+
+        <!-- Imagem com link -->
+        <a href="https://pt.khanacademy.org/" target="_blank">
+            <img src="khan.jpg" alt="Imagem da Khan Academy">
+        </a>
+
+        <!-- Link do site -->
+        <a href="https://pt.khanacademy.org/" target="_blank">
+            www.pt.khanacademy.org
+        </a>
+    </div>
+
+    <!-- GITHUB -->
+    <div class="site">
+
+        <!-- Nome do site -->
+        <h2>GitHub</h2>
+
+        <!-- Imagem com link -->
+        <a href="https://www.github.com/?locale=pt-br" target="_blank">
+            <img src="github.jpg" alt="Imagem do GitHub">
+        </a>
+
+        <!-- Link do site -->
+        <a href="https://www.github.com/?locale=pt-br" target="_blank">
+            www.github.com
+        </a>
+    </div>
+
+</body>
+
+</html>
+```
